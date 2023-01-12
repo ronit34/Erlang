@@ -1,0 +1,16 @@
+-module(practice).
+-compile(export_all).
+
+
+mul2(A,B)->
+	% io:format("A=~p~nB=~p~n",[A,B]),
+	C=5,
+	D=calculating:mul(A,C)*test:ad(A,B),
+	io:format("A=~p~nB=~p~nD = ~p~n",[A,B,D]).
+
+addition(A,B)->
+	test:ad(A,B)+test:su(A,B).
+
+divide(A,B) ->
+	test:ad(A,B)/test:su(A,B
+

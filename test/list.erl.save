@@ -1,0 +1,6 @@
+-module(list).
+-export([a/2]).
+
+a(List,List2)->
+	Fun = fun(X) -> {X,List2,List2 * X} end,
+	lists:map(Fun,List).

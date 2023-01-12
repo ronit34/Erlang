@@ -1,0 +1,4 @@
+-module(case1).
+-export([test/1]).
+
+

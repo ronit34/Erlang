@@ -1,0 +1,8 @@
+-module(atoms).
+-export([hello/0,pattern/2]).
+
+hello()->
+	hello.
+pattern(earth, Distance) -> math:sqrt(2 * 9.8 * Distance);
+
+

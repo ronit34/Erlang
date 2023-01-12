@@ -1,0 +1,8 @@
+-module(detail).
+-export([test/1]).
+
+test(A)->
+	case A of 
+		is_
+ -> "I got an integer";
+		ok -> "I got an atom" end.
